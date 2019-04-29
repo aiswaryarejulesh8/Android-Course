@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frodo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.frodo.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.frodo.Home"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name="com.example.frodo.Signup"
+            android:label="@string/title_activity_signup" />
+        <activity
+            android:name="com.example.frodo.Viewprofile"
+            android:label="@string/title_activity_view_profile" />
+        <activity
+            android:name="com.example.frodo.Update"
+            android:label="@string/title_activity_update" />
+        <activity
+            android:name="com.example.frodo.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name="com.example.frodo.Viewact"
+            android:label="@string/title_activity_viewact" />
+        <activity
+            android:name="com.example.frodo.Request"
+            android:label="@string/title_activity_request" />
+        <activity
+            android:name="com.example.frodo.Viewdc"
+            android:label="@string/title_activity_viewdc" />
+        <activity
+            android:name="com.example.frodo.Forgetpsd"
+            android:label="@string/title_activity_forgetpsd" />
+        <activity
+            android:name="com.example.frodo.Sendrecieve"
+            android:label="@string/title_activity_sendrecieve" />
+        <activity
+            android:name="com.example.frodo.Viewact1"
+            android:label="@string/title_activity_viewact1" />
+        <activity
+            android:name="com.example.frodo.Digitalcoin"
+            android:label="@string/title_activity_digitalcoin" />
+        <activity
+            android:name="com.example.frodo.Tosend"
+            android:label="@string/title_activity_tosend" />
+        <activity
+            android:name="com.example.frodo.Transfer"
+            android:label="@string/title_activity_transfer" />
+        <activity
+            android:name="com.example.frodo.Recieve"
+            android:label="@string/title_activity_recieve" />
+        <activity
+            android:name="com.example.frodo.Coinsplit"
+            android:label="@string/title_activity_coinsplit" />
+        <activity
+            android:name="com.example.frodo.MainActivity1"
+            android:label="@string/title_activity_main_activity1" />
+        <activity android:name="com.example.frodo.Ip" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.frodo.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

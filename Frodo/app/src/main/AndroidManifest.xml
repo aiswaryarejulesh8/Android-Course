@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frodo"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"></activity>
+        <activity
+            android:name=".Signup"
+            android:label="@string/title_activity_signup"></activity>
+        <activity
+            android:name=".Viewprofile"
+            android:label="@string/title_activity_view_profile"></activity>
+        <activity
+            android:name=".Update"
+            android:label="@string/title_activity_update"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"></activity>
+        <activity
+            android:name=".Viewact"
+            android:label="@string/title_activity_viewact"></activity>
+        <activity
+            android:name=".Request"
+            android:label="@string/title_activity_request"></activity>
+        <activity
+            android:name=".Viewdc"
+            android:label="@string/title_activity_viewdc"></activity>
+        <activity
+            android:name=".Forgetpsd"
+            android:label="@string/title_activity_forgetpsd"></activity>
+        <activity
+            android:name=".Sendrecieve"
+            android:label="@string/title_activity_sendrecieve"></activity>
+        <activity
+            android:name=".Viewact1"
+            android:label="@string/title_activity_viewact1"></activity>
+        <activity
+            android:name=".Digitalcoin"
+            android:label="@string/title_activity_digitalcoin"></activity>
+        <activity
+            android:name=".Tosend"
+            android:label="@string/title_activity_tosend"></activity>
+        <activity
+            android:name=".Transfer"
+            android:label="@string/title_activity_transfer"></activity>
+        <activity
+            android:name=".Recieve"
+            android:label="@string/title_activity_recieve"></activity>
+        <activity
+            android:name=".Coinsplit"
+            android:label="@string/title_activity_coinsplit"></activity>
+        <activity
+            android:name=".MainActivity1"
+            android:label="@string/title_activity_main_activity1"></activity>
+        <activity android:name=".Ip">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
